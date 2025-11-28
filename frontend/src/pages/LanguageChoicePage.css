@@ -1,0 +1,55 @@
+.language-choice-container {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #ff5722;
+}
+
+.language-checkbox-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem; /* Increased gap below language grid */
+}
+
+.language-checkbox {
+  background-color: #1e1e1e;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #444;
+}
+
+.language-checkbox input[type="checkbox"] {
+  accent-color: #ff5722;
+  transform: scale(1.2);
+}
+
+.button-wrapper {
+  margin-top: 1rem;
+}
+
+.next-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #e64a19;
+}

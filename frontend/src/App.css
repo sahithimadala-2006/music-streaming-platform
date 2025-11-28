@@ -1,0 +1,102 @@
+/* Global reset and dark theme */
+/* Ensure full-screen dark background */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #121212;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+/* App container layout */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.app-header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+
+/* Logo styling */
+.app-logo {
+  width: 200px;
+  max-width: 80%;
+  margin-bottom: 2rem;
+}
+
+/* Language selector */
+.language-selector {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.language-selector label {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.language-selector select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+/* Song list styling */
+.song-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+.song-item {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.song-item:hover {
+  background-color: #2a2a2a;
+}
+
+/* Optional: animated logo */
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-logo.spin {
+  animation: app-logo-spin infinite 20s linear;
+  pointer-events: none;
+}
+
+/* Reusable page title */
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Link styling (if used) */
+.app-link {
+  color: #61dafb;
+  text-decoration: none;
+}
